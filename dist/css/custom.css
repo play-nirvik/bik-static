@@ -1,0 +1,133 @@
+.main-loader {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -21px;
+    margin-left: -26px;
+}
+
+.bik-side-masthead {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 21%;
+    background: #15191b;
+}
+
+.bik-navigation-wrap {
+    min-height: 250px;
+    background: #15191b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.onepage-pagination {
+    position: static;
+    right: auto;
+    top: auto;
+    margin-top: 20px;
+}
+
+.onepage-pagination li {
+    position: relative;
+}
+
+.onepage-pagination li a{
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 25px;
+    padding: 5px 10px;
+    color: #CCCCCC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.onepage-pagination li a:hover, 
+.onepage-pagination li a:active,
+.onepage-pagination li a.active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.onepage-pagination li a:before {
+    left: 8px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: -5px;
+    border: 1px solid #80e435;
+    background: none;
+}
+
+.onepage-pagination li a.active:before {
+    background: #80e435;
+    border-color: #80e435;
+}
+
+.section-title {
+    color: #80e435;
+    font-weight: 400;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 10px;
+}
+
+.section-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 10px;
+    color: #FFFFFF;
+}
+
+.section-content p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#page1 {
+    background: url('../img/laboratory.jpg') center center no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+#page1 h1, #page1 h2, #page1 h3 {
+    color: #80e435;
+}
+
+#page1 p {
+    font-size: 16px;
+}
+
+#page2 {
+    background: url('../img/scientists.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#page3 {
+    background: url('../img/our-equation.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#page3 .section-content {
+    margin-bottom: 10px;
+}
+
+#page3 .section-content p {
+    margin-bottom: 0;
+}
+
+#page4 {
+    background: url('../img/career.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#page5 {
+    background: url('../img/contact-us.jpg') center center no-repeat;
+    background-size: cover;
+}
